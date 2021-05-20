@@ -8,6 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Review extends Model
 {
+
+    // protected $fillable = ['customer','star','review'];
+        protected $guarded = array(); //make all fillable
+
+
     use HasFactory;
 
     public function product()

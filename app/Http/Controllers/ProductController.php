@@ -7,13 +7,14 @@ namespace App\Http\Controllers;
 use App\Http\Requests\ProductRequest;
 use App\Http\Resources\Product\ProductResource;
 use App\Http\Resources\Product\ProductCollection;
-use Illuminate\Http\Response;
+
 
 use App\Exceptions\ProductNotBelongstoUser;
 use Auth;
 
 use App\Models\Product;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 
 
 class ProductController extends Controller
